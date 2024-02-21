@@ -13,69 +13,69 @@
         "hidden":false
     },
     "profile":{
-        "name":"廖晓娟 (新茗)",
-        "email":"736xxxx86@qq.com",
-        "mobile":"156xxxx7119",
-        "github":"https://github.com/visiky (1.1k 粉丝)",
-        "zhihu":"https://www.zhihu.com/people/visiky",
-        "workExpYear":""
+        "name":"李焕泉",
+        "email":"2976930785@qq.com",
+        "mobile":"18899795895",
+        "github":"https://github.com/hquanmr",
+        "workExpYear":"7年"
     },
     "educationList":[
         {
             "edu_time":[
                 "2014.09.01",
-                "2018.06.30"
+                "2017.06.30"
             ],
-            "school":"华南理工大学",
-            "major":"网络工程",
-            "academic_degree":"本科"
+            "school":"河源职业技术学院",
+            "major":"软件工程",
+            "academic_degree":"大专（全日制）"
+        },
+                {
+            "edu_time":[
+                "2018.09.01",
+                "2021.06.30"
+            ],
+            "school":"深圳大学",
+            "major":"软件工程",
+            "academic_degree":"本科（业余）"
         }
     ],
-    "awardList":[
-        {
-            "award_info":"英语 CET6",
-            "award_time":"2015"
-        },
-        {
-            "award_info":"蚂蚁近卫军 卓越个人奖",
-            "award_time":"2018.09"
-        },
-        {
-            "award_info":"前端练习生 可视化讲师",
-            "award_time":"2020.10"
-        },
-        {
-            "award_info":"前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-            "award_time":"2021.07"
-        }
-    ],
+   
     "workExpList":[
         {
-            "company_name":"蚂蚁集团",
-            "department_name":"体验技术部",
+            "company_name":"深圳换换回收有限公司",
+            "department_name":"技术部",
             "work_time":[
-                "2018.06",
-                null
+                "2022.05",
+                "2024.02"
             ],
-            "work_desc":"1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
+            "work_desc":"php工程师。使用 Tp5.1 框架，参与公司多个项目的研发工作，对 php 开发有了一定的了解"
+        },
+        {  
+            "company_name":"华普咨询有限公司",
+            "department_name":"技术部",
+            "work_time":[
+                "2020.07",
+                "2022.04"
+            ],
+            "work_desc":"php工程师。使用 Tp5.1 框架，参与公司多个项目的研发工作，对 php 开发有了一定的了解"
         },
         {
-            "company_name":"蚂蚁金服",
-            "department_name":"大数据部",
+            "company_name":"森鸿国际物流深圳有限公司",
+            "department_name":"技术部",
             "work_time":[
-                "2017.06",
-                "2017.12"
+                "2018.09",
+                "2020.06"
             ],
-            "work_desc":"前端实习生。使用 React 参与开发多类数据产品的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
+            "work_desc":"php开发。使用 Laravel 框架，参与公司多个项目的研发工作，对 php 开发有了一定的了解"
         },
         {
-            "company_name":"数沃信息科技有限公司",
-            "department_name":"",
+            "company_name":"智信物联科技深圳有限公司",
+            "department_name":"技术部",
             "work_time":[
                 "2017.03",
-                "2017.05"
+                "2018.08"
             ],
-            "work_desc":"前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
+            "work_desc":"php实习生。使用 Tp3.2 框架，参与公司多个项目的研发工作，对 php 开发有了一定的了解"
         }
     ],
     "skillList":[
@@ -108,7 +108,7 @@
 
     ],
     "aboutme":{
-        "aboutme_desc":"🌱 多年大型项目经历，专注在可视分析领域\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。2.可视化经验: 通用组件设计和开发经验丰富，也能完成定制可视化诉求\n其它: 1. 前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot” 2. 蚂蚁集团前端练习生 可视化讲师 3. D2论坛小游戏: https://antv.gitee.io/zh/d2, https://antv-studio.antfin.com/bless-heatmap"
+        "aboutme_desc":"专注在后端7年互联网web开发经验，能够独立负责php项目开发，对Web系统有较深理解，编码风格良好，乐于接受新事物。工作积极，做事认真负责，抗压能力强，有良好的沟通、协调能力、跟产品，前端都能进行良好沟通。"
     },
     "theme":{
         "color":"#2f5785",
