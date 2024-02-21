@@ -55,7 +55,34 @@
 		"work_time": ["2017.03", "2018.08"],
 		"work_desc": "php实习生。使用 Tp3.2 框架，参与公司多个项目的研发工作，对 php 开发有了一定的了解"
 	}],
-	"skillList": [],
+	"skillList": [
+
+		{
+			"skill_name": "php主流框架",
+			"skill_desc": "thinkphp，laravel，hyperf, webman"
+		},
+		{
+			"skill_name": "数据库",
+			"skill_desc": "熟练使用mysql,redis这两种不同类型的数据库"
+		},
+		{
+			"skill_name": "搜索引擎",
+            "skill_desc": "熟悉elastic搜索引擎"
+		},
+		{
+			"skill_name": "linux",
+			"skill_desc": "熟悉linux常用命令，日常开发在docker的lnmp环境内"
+		},
+		{
+			"skill_name": "工具",
+            "skill_desc": "熟悉git，svn版本控制工具及postman接口测试工具的使用"
+		},
+		{
+			"skill_name": "api对接",
+            "skill_desc": "熟悉对接第三方平台流程，对接过微信，支付宝，抖音，百度等第三方"
+		}
+
+    ],
 	"projectList": [{
 		"project_name": "换换平台",
 		"project_role": "PHP开发",
