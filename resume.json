@@ -41,7 +41,7 @@
 		"company_name": "华普咨询有限公司",
 		"department_name": "技术部",
 		"work_time": ["2020.07", "2022.04"],
-		"work_desc": "php工程师。使用 Tp5.1 框架，参与需求设计，使用开源cms 框架独立开发后台 ，日常运维上线部署等工作 。"
+		"work_desc": "php工程师。使用 Tp5.1 框架，参与需求设计，使用开源cms 框架独立开发后台 ，日常运维发版部署等工作 。"
 	},
 	{
 		"company_name": "森鸿国际物流深圳有限公司",
@@ -60,7 +60,7 @@
 
 		{
 
-			"skill_desc": "熟练使用php常见的主流框架 thinkphp，laravel，hyperf, webman 等开源框架 "
+			"skill_desc": "熟练使用 thinkphp，laravel，hyperf, webman 等php常见的主流开源框架 "
 		},
 		{
 
@@ -68,20 +68,16 @@
 		},
         {
 
-			"skill_desc": "熟练使用队列工具 rabbitmq"
+			"skill_desc": "熟练使用队列工具 rabbitmq "
 		},
 		{
 
             "skill_desc": "熟悉elastic搜索引擎"
 		},
+
 		{
 
 			"skill_desc": "熟悉linux常用命令，本地环境使用wsl + docker，贴近生产环境"
-		},
-
-		{
-
-            "skill_desc": "熟悉git，svn版本控制工具及postman接口测试工具的使用"
 		},
 		{
 
@@ -125,7 +121,7 @@
 	}],
 	"workList": [],
 	"aboutme": {
-		"aboutme_desc": "专注于后端开发7年，能够独立负责php项目开发，对Web系统有较深理解，编码风格良好，乐于接受新事物。工作积极，做事认真负责，抗压能力强，有良好的沟通.协调能力.跟产品，前端都能进行良好沟通。"
+		"aboutme_desc": "专注于后端开发7年，能够独立负责php项目开发，对Web系统有较深理解，编码风格良好，乐于接受新事物。工作积极，做事认真负责，抗压能力强，有良好的沟通、协调能力、跟产品，前端都能进行良好沟通。"
 	},
 	"theme": {
 		"color": "#2f5785",
