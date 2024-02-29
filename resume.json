@@ -1,1 +1,170 @@
-{"titleNameMap":{"educationList":"教育背景","workExpList":"工作经历","projectList":"项目经验","skillList":"个人技能","awardList":"更多信息","workList":"个人作品","aboutme":"个人评价"},"avatar":{"src":"https://avatars.githubusercontent.com/u/15646325?v=4","hidden":true},"profile":{"name":"李焕泉","email":"2976930785@qq.com","mobile":"18899795895","github":"https://github.com/hquanmr","workExpYear":"7年 | 期望薪资15-18k"},"educationList":[{"edu_time":["2014.09.01","2017.06.30"],"school":"河源职业技术学院","major":"软件工程","academic_degree":"全日制大专","dataIndex":0},{"edu_time":["2018.09.01","2021.06.30"],"school":"深圳大学","major":"软件工程","academic_degree":"成考本科","dataIndex":1}],"workExpList":[{"company_name":"深圳换换回收有限公司","department_name":"技术部","work_time":["2022.05","2024.02"],"work_desc":"php工程师。\n 1.使用 tp5.1 框架，参与公司多个项目的研发工作，对web系统架构有了一定的了解。"},{"company_name":"华普咨询有限公司","department_name":"技术部","work_time":["2020.07","2022.04"],"work_desc":"php工程师。使用 tp5.1 框架，参与需求设计，使用开源cms 框架独立开发后台 ，日常运维发版等工作。"},{"company_name":"森鸿国际物流深圳有限公司","department_name":"技术部","work_time":["2018.09","2020.06"],"work_desc":"php工程师。使用 laravel 框架，负责对应的模块开发和数据库设计，对web开发有了一定的了解。"},{"company_name":"智信物联科技深圳有限公司","department_name":"技术部","work_time":["2017.03","2018.08"],"work_desc":"php实习生。使用 Tp3.2 框架，对已有项目进行维护和开发，对 php 开发有了一定的了解"}],"skillList":[{"skill_desc":"熟练使用 thinkphp，laravel，hyperf, webman 等php常见的主流开源框架 "},{"skill_desc":"熟练使用mysql,redis这两种不同类型的数据库"},{"skill_desc":"熟练使用队列工具 rabbitmq "},{"skill_desc":"熟悉elastic搜索引擎"},{"skill_desc":"熟悉linux常用命令，本地环境使用wsl + docker，贴近生产环境"},{"skill_desc":"熟悉对接第三方平台流程，对接过微信，支付宝，抖音，百度等第三方"}],"projectList":[{"project_name":"换换回收","project_role":"PHP开发","project_time":"2022.05 - 至今","project_desc":"一个回收数码3c 的平台","project_content":"\n1.对接各大安卓应用市场的ocpd功能，使用rabbitmq队列处理app请求数据，将激活，注册，下单，成交等归因转化事件上报，并进行统计在后台展示数据。\n2.营销活动功能优化，在主入口调用活动管理单例类，通过array_reduce()方法遍历活动类，调用每个活动类的handler()方法处理请求输入。\n3.对接口响应进行加密设计，防止竞争对手恶意爬取数据\n4.产品规划的版本更新开发。","dataIndex":0},{"project_name":"换换二手","project_role":"PHP开发","project_time":"2022.05 - 至今","project_desc":"一个提供c2c二手交易的平台","project_content":"\n1.二手商品搜索逻辑，根据商品状态将商品数据存储或移除elastic，在搜索时使用elasctic数据进行搜索。\n2.接入微信直付通，支付宝收付通合规实现c2c支付功能，使用rabbitmq队列进行，交易资金的解冻分账等功能\n3.编写支付回调处理支付逻辑，在支付回调中进行订单状态的判断，并主动查询订单支付结果，防止订单支付时卖家修改订单状态，导致出现掉单情况，\n4.将品类从数码3C扩展为全品类的商品类目，使用mysql原生json结构存储方便查询展示 \n5.对接第三方im，实时获取消息记录通过rabbitmq队列进行消费，分析消息内容通过聊天频率 ，敏感词，图片检测进行防诈，将骗子踢下线并封号\n6.产品规划的版本更新开发，","dataIndex":1},{"project_name":"企业官网","project_role":"PHP开发","project_time":"2022.05 - 至今","project_desc":"集团旗下各分公司的官网","project_content":"\n1.根据设计原型使用cms进行套版开发","dataIndex":0},{"project_name":"批量数据处理工具","project_role":"PHP开发","project_time":"2023.07 - 2023.08","project_desc":"百万级平台数据导入导出处理","project_content":"\n1.使用 hyperf 协程+xlswriter扩展 批量导出数据到excel    \n2. 使用websocket + hyperf 协程+xlswriter扩展 +task 批量导入数据到数据库","dataIndex":2},{"project_name":"CRM系统","project_role":"PHP开发","project_time":"2020.07-2022.04","project_desc":"本系统主要用于创建H5落地页链接，并在各大投放平台（抖音、微信、百度信息流）进行投放推广。 ","project_content":"\n1.搭建管理后台，基于tp5.1的开源CMS进行快速开发 \n2.设计订单表并对数据进行权限划分，实现推广，销售，超管，等多种角色的数据权限控制 \n3.使用微信union机制对微信公众号、企业微信、订阅号、小鹅通 、等其他微信第三方服务商的用户信息进行关联，实现微信生态圈的覆盖 4.创建可视化自定义页面布局的H5表单落地页，并使用阿里云oss存储图片，使用cdn对图片资源进行加速 \n5.针对前端H5落地页，页面数据存入Redis，开启opcache，设置php-fpm静态模式，实现秒级响应的加载速度 \n6.使用tp5 redis消息队列对业务主流程进行解耦，调用抖音接口实时更新订单创意信息，方便推广策略的及时调整 \n7.内部封装对第三方平台接口异常返回的处理和日志记录，确保系统在投放过程中的稳定性 \n8.后台常用模块 会员管理，订单管理，管理员管理等，根据新需求不断完善功能。","dataIndex":4},{"project_name":"森鸿订单管理系统","project_role":"PHP开发","project_time":"2018.09 - 2020.06","project_desc":"主要提供一个物流数据管理平台给客服和客户使用。","project_content":"\n1.对接外部平台的物流查询信息接口编写定时任务脚本\n2.基于laravel的 redis消息队列，完成向客户发送邮件通知订单情况 \n3.使用扩展包进行html转pdf绘制物流面单 \n4.后台常用模块，会员管理，订单管理，管理员管理等，根据新需求不断完善功能","dataIndex":4},{"project_name":"智信商城","project_role":"PHP开发","project_time":"2017.03 - 2018.08","project_desc":"基于tp3.2开发的多商户商城，主要用于多公众号。","project_content":"\n1.使用微信接口，自定义菜单，网页授权获取用户信息生成粉丝，公众号消息管理，微信支付。\n2.多公众号实现原理：生成微信菜单时在访问链接上添加平台客户的唯一标识，访问页面时通过浏览器cookie缓存当前链接上的标识字符，后续每次请求都会带上标识符做客户认证公众号页面前端用vue做页面逻辑控制，数据从后端接口获取。\n3.后台商品模块，商品管理功能，上下架，产品分类，富客户端内容展示。前端购物车功能，订单管理功能，订单状态和商品评价","dataIndex":5}],"workList":[],"aboutme":{"aboutme_desc":"专注于后端开发7年，能够独立负责php项目开发，对Web系统有较深理解，编码风格良好，乐于接受新事物。工作积极，做事认真负责，抗压能力强，有良好的沟通、协调能力、跟产品，前端都能进行良好沟通。"},"theme":{"color":"#2f5785","tagColor":"#8bc34a"}}
+{
+  "titleNameMap":  {
+            "educationList":  "教育背景",
+            "workExpList":  "工作经历",
+            "projectList":  "项目经验",
+            "skillList":  "个人技能",
+            "awardList":  "更多信息",
+            "workList":  "个人作品",
+            "aboutme":  "个人评价"
+  },
+  "avatar":  {
+            "src":  "https://avatars.githubusercontent.com/u/15646325?v=4",
+            "hidden":  true
+  },
+  "profile":  {
+            "name":  "李焕泉",
+            "email":  "2976930785@qq.com",
+            "mobile":  "18899795895",
+            "github":  "https://github.com/hquanmr",
+            "workExpYear":  "7年 | 期望薪资15-18k"
+  },
+  "educationList":  [
+            {
+                      "edu_time":  [
+                                "2014.09.01",
+                                "2017.06.30"
+                      ],
+                      "school":  "河源职业技术学院",
+                      "major":  "软件工程",
+                      "academic_degree":  "全日制大专",
+                      "dataIndex":  0
+            },
+            {
+                      "edu_time":  [
+                                "2018.09.01",
+                                "2021.06.30"
+                      ],
+                      "school":  "深圳大学",
+                      "major":  "软件工程",
+                      "academic_degree":  "成考本科",
+                      "dataIndex":  1
+            }
+  ],
+  "workExpList":  [
+            {
+                      "company_name":  "深圳换换回收有限公司",
+                      "department_name":  "技术部",
+                      "work_time":  [
+                                "2022.05",
+                                "2024.02"
+                      ],
+                      "work_desc":  "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis+elasticsearch+rabbitmq+grafana+logkit。\n 2.工作内容，参与需求设计，功能开发。"
+            },
+            {
+                      "company_name":  "华普咨询有限公司",
+                      "department_name":  "技术部",
+                      "work_time":  [
+                                "2020.07",
+                                "2022.04"
+                      ],
+                      "work_desc":  "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis。\n 2.工作内容，负责CRM系统从0到1开发，项目上线和后续运维，并不断优化系统。"
+            },
+            {
+                      "company_name":  "森鸿国际物流深圳有限公司",
+                      "department_name":  "技术部",
+                      "work_time":  [
+                                "2018.09",
+                                "2020.06"
+                      ],
+                      "work_desc":  "php工程师。使用 laravel 框架，负责对应的模块开发和数据库设计。"
+            },
+            {
+                      "company_name":  "智信物联科技深圳有限公司",
+                      "department_name":  "技术部",
+                      "work_time":  [
+                                "2017.03",
+                                "2018.08"
+                      ],
+                      "work_desc":  "php实习生。使用 tp3.2 框架，对已有项目进行维护和开发。"
+            }
+  ],
+  "skillList":  [
+            {
+                      "skill_desc":  "熟练使用 thinkphp，laravel，hyperf, webman 等php常见的主流开源框架 "
+            },
+            {
+                      "skill_desc":  "熟练使用mysql,redis这两种不同类型的数据库"
+            },
+            {
+                      "skill_desc":  "熟练使用队列工具 rabbitmq "
+            },
+            {
+                      "skill_desc":  "熟悉elastic搜索引擎"
+            },
+            {
+                      "skill_desc":  "熟悉linux常用命令，本地环境使用wsl + docker，贴近生产环境"
+            },
+            {
+                      "skill_desc":  "熟悉对接第三方平台流程，对接过微信，支付宝，抖音，百度等第三方"
+            }
+  ],
+  "projectList":  [
+            {
+                      "project_name":  "换换回收",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2022.05 - 至今",
+                      "project_desc":  "一个回收数码3c 的平台",
+                      "project_content":  "\n1.对接各大安卓应用市场的ocpd功能，使用rabbitmq队列处理app请求数据，将激活，注册，下单，成交等归因转化事件上报，并进行统计在后台展示数据。\n2.营销活动功能优化，在主入口调用活动管理单例类，通过array_reduce()方法遍历活动类，调用每个活动类的handler()方法处理请求输入。\n3.对接口响应进行加密设计，防止竞争对手恶意爬取数据\n4.产品规划的版本更新开发。",
+                      "dataIndex":  0
+            },
+            {
+                      "project_name":  "换换二手",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2022.05 - 至今",
+                      "project_desc":  "一个提供c2c二手交易的平台",
+                      "project_content":  "\n1.二手商品搜索逻辑，根据商品状态将商品数据存储或移除elastic，在搜索时使用elasctic数据进行搜索。\n2.接入微信直付通，支付宝收付通合规实现c2c支付功能，使用rabbitmq队列进行，交易资金的解冻分账等功能\n3.编写支付回调处理支付逻辑，在支付回调中进行订单状态的判断，并主动查询订单支付结果，防止订单支付时卖家修改订单状态，导致出现掉单情况，\n4.将品类从数码3C扩展为全品类的商品类目，使用mysql原生json结构存储方便查询展示 \n5.对接第三方im，实时获取消息记录通过rabbitmq队列进行消费，分析消息内容通过聊天频率 ，敏感词，图片检测进行防诈，将骗子踢下线并封号\n6.产品规划的版本更新开发，",
+                      "dataIndex":  1
+            },
+            {
+                      "project_name":  "企业官网",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2022.05 - 至今",
+                      "project_desc":  "集团旗下各分公司的官网",
+                      "project_content":  "\n1.根据设计原型使用cms进行套版开发",
+                      "dataIndex":  0
+            },
+            {
+                      "project_name":  "批量数据处理工具",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2023.07 - 2023.08",
+                      "project_desc":  "百万级平台数据导入导出处理",
+                      "project_content":  "\n1.使用 hyperf 协程+xlswriter扩展 批量导出数据到excel    \n2. 使用websocket + hyperf 协程+xlswriter扩展 +task 批量导入数据到数据库",
+                      "dataIndex":  2
+            },
+            {
+                      "project_name":  "CRM系统",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2020.07-2022.04",
+                      "project_desc":  "本系统主要用于创建H5落地页链接，并在各大投放平台（抖音、微信、百度信息流）进行投放推广。 ",
+                      "project_content":  "\n1.搭建管理后台，基于tp5.1的开源CMS进行快速开发 \n2.设计订单表并对数据进行权限划分，实现推广，销售，超管，等多种角色的数据权限控制 \n3.使用微信union机制对微信公众号、企业微信、订阅号、小鹅通 、等其他微信第三方服务商的用户信息进行关联，实现微信生态圈的覆盖 4.创建可视化自定义页面布局的H5表单落地页，并使用阿里云oss存储图片，使用cdn对图片资源进行加速 \n5.针对前端H5落地页，页面数据存入Redis，开启opcache，设置php-fpm静态模式，实现秒级响应的加载速度 \n6.使用tp5 redis消息队列对业务主流程进行解耦，调用抖音接口实时更新订单创意信息，方便推广策略的及时调整 \n7.内部封装对第三方平台接口异常返回的处理和日志记录，确保系统在投放过程中的稳定性 \n8.后台常用模块 会员管理，订单管理，管理员管理等，根据新需求不断完善功能。",
+                      "dataIndex":  4
+            },
+            {
+                      "project_name":  "森鸿订单管理系统",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2018.09 - 2020.06",
+                      "project_desc":  "主要提供一个物流数据管理平台给客服和客户使用。",
+                      "project_content":  "\n1.对接外部平台的物流查询信息接口编写定时任务脚本\n2.基于laravel的 redis消息队列，完成向客户发送邮件通知订单情况 \n3.使用扩展包进行html转pdf绘制物流面单 \n4.后台常用模块，会员管理，订单管理，管理员管理等，根据新需求不断完善功能",
+                      "dataIndex":  4
+            },
+            {
+                      "project_name":  "智信商城",
+                      "project_role":  "PHP开发",
+                      "project_time":  "2017.03 - 2018.08",
+                      "project_desc":  "基于tp3.2开发的多商户商城，主要用于多公众号。",
+                      "project_content":  "\n1.使用微信接口，自定义菜单，网页授权获取用户信息生成粉丝，公众号消息管理，微信支付。\n2.多公众号实现原理：生成微信菜单时在访问链接上添加平台客户的唯一标识，访问页面时通过浏览器cookie缓存当前链接上的标识字符，后续每次请求都会带上标识符做客户认证公众号页面前端用vue做页面逻辑控制，数据从后端接口获取。\n3.后台商品模块，商品管理功能，上下架，产品分类，富客户端内容展示。前端购物车功能，订单管理功能，订单状态和商品评价",
+                      "dataIndex":  5
+            }
+  ],
+  "workList":  [
+
+  ],
+  "aboutme":  {
+            "aboutme_desc":  "专注于后端开发7年，能够独立负责php项目开发，对Web系统有较深理解，编码风格良好，乐于接受新事物。工作积极，做事认真负责，抗压能力强，有良好的沟通、协调能力、跟产品，前端都能进行良好沟通。"
+  },
+  "theme":  {
+            "color":  "#2f5785",
+            "tagColor":  "#8bc34a"
+  }
+}
