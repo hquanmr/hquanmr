@@ -17,7 +17,7 @@
         "email": "2976930785@qq.com",
         "mobile": "18899795895",
         "github": "https://github.com/hquanmr",
-        "workExpYear": "8年 | 期望薪资14-16k"
+        "workExpYear": "8年 | 期望薪资13-15k"
     },
     "educationList": [
         {
@@ -49,7 +49,7 @@
                 "2022.05",
                 "2025.05"
             ],
-            "work_desc": "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis+elasticsearch+rabbitmq+grafana+logkit。\n 2.工作内容，参与需求设计，功能开发。",
+            "work_desc": "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis+elasticsearch+rabbitmq。\n 2.工作内容，参与需求设计，功能开发。",
             "dataIndex": 0
         },
         {
@@ -82,23 +82,23 @@
     ],
     "skillList": [
         {
-            "skill_desc": "熟练使用 ThinkPHP,Laravel,Hyperf, Webman  等 php 常见的主流开源框架。",
+            "skill_desc": "熟练使用 ThinkPHP,Laravel, Webman  等 php 常见的主流开源框架。",
             "dataIndex": 0
         },
         {
-            "skill_desc": "熟练使用 Mysql 等关系型数据库，具有较好的数据库设计及优化经验",
+            "skill_desc": "熟练使用 Mysql 具有较好的数据库设计及优化经验",
             "dataIndex": 1
         },
         {
-            "skill_desc": "熟练使用 Redis 在缓存/队列/分布式锁场景的深度应用。",
+            "skill_desc": "具备Linux服务器环境部署及网站性能调优经验",
             "dataIndex": 2
         },
         {
-            "skill_desc": "具备Linux服务器环境部署及Nginx/Apache性能调优经验",
+            "skill_desc": "熟悉RabbitMQ消息队列中间件的异步任务处理",
             "dataIndex": 3
         },
         {
-            "skill_desc": "熟悉RabbitMQ消息队列中间件的异步任务处理",
+            "skill_desc": "熟悉Html ,Css, ‌JavaScript,能编写简单页面，熟练前后端接口对接",
             "dataIndex": 4
         },
         {
