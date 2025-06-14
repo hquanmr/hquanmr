@@ -126,7 +126,7 @@
             "project_time": "2023.05-2025.05",
             "project_name": "kxd 手机激活后台管理系统",
             "project_role": "php 开发",
-            "project_desc": "一个手机激活数据统计平台，专注于统计销售出去的手机激活情况，区分WiFi激活和插卡激活。\n核心技术栈：Workerman、MySQL、Redis、WebSocket",
+            "project_desc": "一个手机激活数据统计平台。\n核心技术栈：Workerman、MySQL、Redis、WebSocket",
             "project_content": " \n1. 利用Workerman构建高性能的激活数据上报接口，通过redis消息队列实现请求异步化处理，提高系统响应速度。\n2. 采用「查询表+主表」，通过MySQL触发器自动生成轻量化查询表（仅含必需字段），将高频激活查询请求定向至查询表，处理完成后同步数据至商品主表。\n3. 实现商品导入Excel功能，使用Workerman异步处理，并通过WebSocket推送进度给前端。错误商品存储到Redis中，任务完成后可下载进行二次修改。\n4. 搭建商品模块，通过level字段和pid字段构建查询视图，减少编码复杂度，提高开发效率。\n5. 开发用户管理和系统管理后台模块，提供常用的后台管理功能",
             "dataIndex": 2
         },
