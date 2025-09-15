@@ -12,7 +12,7 @@
         "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
         "hidden": true
     },
-   "profile": {
+    "profile": {
         "name": "何龙",
         "email": "1272263498@qq.com",
         "mobile": "17602097027",
@@ -32,18 +32,19 @@
         },
   
     ],
-   "workExpList": [
+
+    "workExpList": [
         {
             "company_name": "深圳换换回收有限公司",
             "department_name": "技术部",
             "work_time": [
-                "2022.07",
+                "2022.05",
                 "2025.05"
             ],
             "work_desc": "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis+elasticsearch+rabbitmq。\n 2.工作内容，参与需求设计，功能开发。",
             "dataIndex": 0
         },
-    {
+           {
             "company_name": "深圳市友祥科技有限公司",
             "department_name": "技术部",
             "work_time": [
@@ -52,7 +53,7 @@
             ],
             "work_desc": "rpa 实施工程师，使用python对机器人流程自动化
             项目进行维护和开发。"
-        }
+        },
         {
             "company_name": "深圳市龙灵科技网络有限公司",
             "department_name": "技术部",
@@ -62,7 +63,8 @@
             ],
             "work_desc": "php工程师。使用 laravel 框架，负责对应的模块开发和数据库设计。"
         },
-                {
+         
+         {
             "company_name": "深圳市国洋运通国际物流有限公司",
             "department_name": "技术部",
             "work_time": [
@@ -70,8 +72,7 @@
                 "2019.08"
             ],
             "work_desc": "php工程师。\n 1.服务端架构，使用  thinkphp5+mysql+redis。\n 2.工作内容，负责Oms系统从0到1开发，项目上线和后续运维，并不断优化系统。"
-        },
-    
+        }
     ],
     "skillList": [
         {
@@ -131,9 +132,11 @@
             "project_content": "\n1.搭建管理后台，基于 tp 5的开源 CMS  进行快速开发，实现三个月上线运行主要功能\n2.设计订单表并对数据进行权限划分，实现推广，销售，超管，等多种角色的数据权限控制\n3.通过微信UnionID体系打通公众号/企业微信/小鹅通等类第三方账号系统，构建统一用户画像\n4.创建可视化自定义页面布局的H5表单，并使用阿里云 oss  存储图片，使用 cdn  对图片资源进行加速\n5.针对前端H5落地页，页面数据存入 Redis ，开启 opcache ，设置 php-fpm  静态模式，实现秒级响应的加载速度\n6.使用 tp5 redis  消息队列对业务主流程进行解耦，调用抖音接口实时更新订单创意信息，方便推广策略的及时调整\n7.内部封装对第三方平台接口异常返回的处理和日志记录，确保系统在投放过程中的稳定性\n8.后台常用模块 会员管理，订单管理，管理员管理等，根据新需求不断完善功能。\n9.服务器性能调优、测试部署及日常维护，保障系统稳定高效运行。",
             "dataIndex": 3
         },
-        
+     
     ],
-    "workList": [],
+    "workList": [
+
+    ],
     "aboutme": {
         "aboutme_desc": "具备独立负责PHP项目开发的能力，有中小型项目开发经验，能编写管理后台页面,对服务器搭建、优化及数据库优化有一定的经验。"
     },
